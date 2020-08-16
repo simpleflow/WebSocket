@@ -15,6 +15,8 @@ import org.java_websocket.server.WebSocketServer;
 
 
 public class WebSocketService extends WebSocketServer {
+    //todo 还要判断哪个客户端 有可能用户通过手机和PC同时打开
+
 
     //静态变量，用来记录当前在线连接数。应该把它设计成线程安全的。
     //private static int onlineCount = 0;
